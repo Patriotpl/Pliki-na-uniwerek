@@ -1,0 +1,8 @@
+# depslib dependency file v1.0
+1519990236 source:c:\tmp\c02\main.c
+	"Z01.txt"
+
+1519993288 c:\tmp\c02\z01.txt
+	<stdio.h>
+	<stdlib.h>
+

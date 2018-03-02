@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="WZORZEC" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/C07" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/C07" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+		</Compiler>
+		<Unit filename="Z00.txt" />
+		<Unit filename="Z01.txt" />
+		<Unit filename="Z02.txt" />
+		<Unit filename="Z03.txt" />
+		<Unit filename="Z04.txt" />
+		<Unit filename="Z05.txt" />
+		<Unit filename="Z06.txt" />
+		<Unit filename="Z07.txt" />
+		<Unit filename="Z08.txt" />
+		<Unit filename="Z09.txt" />
+		<Unit filename="Z10.txt" />
+		<Unit filename="Z11.txt" />
+		<Unit filename="Z12.txt" />
+		<Unit filename="Z13.txt" />
+		<Unit filename="Z14.txt" />
+		<Unit filename="Z15.txt" />
+		<Unit filename="Z16.txt" />
+		<Unit filename="Z17.txt" />
+		<Unit filename="Z18.txt" />
+		<Unit filename="Z19.txt" />
+		<Unit filename="Z20.txt" />
+		<Unit filename="funkcje.txt" />
+		<Unit filename="main.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

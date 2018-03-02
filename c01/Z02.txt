@@ -1,0 +1,57 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main(){
+    int x,y,z;
+    float a;
+/*
+    printf("bardzo\ndlugi\nnapis\n\n\n\n\n zadanie 1.2.3: \n\n");
+
+    printf("napis zawierajacy znaczki: // \\\\ $ & %% \n\nzadanie 1.2.4: \n\npodaj liczbe do wypisania: \n");
+    scanf("%d",&x);
+    printf("%d",x);\
+    printf("\n\n\n\n\nzadanie 1.3.1 \n\npodaj liczbe x: \n");
+    scanf("%d",&x);
+
+    if (x<0)
+        printf("wartosc bezwzgledna x: %d", -x);
+    else
+        printf("wartosc bezwzgledna x: %d", x);
+
+    printf("\n\nzadanie 1.3.2\n\npodaj liczby x i y: \n");
+    scanf("%d %d", &x, &y);
+
+    if (x>y)
+        printf("\nwieksza z twoich liczb: %d", x);
+    else
+        printf("\nwieksza z twoich liczb: %d", y);
+
+    printf("zadanie 1.3.3\n\npodaj liczby x, y, z: \n");
+    scanf("%d %d %d", &x, &y, &z);
+
+    if (x>y)
+        if (x>z)
+            printf("\nnajwieksza z nich to x: %d", x);
+        else if(x==z)
+            printf("\nnajwieksza z nich to x, jest rowne z: %d ", x);
+        else;
+    else if (y==x)
+        if (x>z)
+            printf("\nnajwieksza z nich to x i jest rowna y: %d", x);
+        else if(x==z)
+            printf("\nwszystkie liczby sa rowne %d ", x);
+        else;
+    else if (y>z)
+            printf("\nnajwieksza z nich to y: %d", y);
+        else if (y==z)
+            printf("\nnajwieksza z nich to y, jest rowne z: %d ", y);
+        else
+            printf("\nnajwieksza z nich to z: %d", z);
+*/
+
+    printf("zadanie 1.2.12: \n\n podaj liczbe wymierna a: \n");
+    scanf("%f", &a);
+    printf("%f", a);
+
+    return 0;
+}

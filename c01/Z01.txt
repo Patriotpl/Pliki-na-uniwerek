@@ -1,0 +1,19 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main(){
+    int m, n, i, wynik = 1;
+
+    printf("Podaj 2 liczby calkowite m i n, m>n:\n");
+    scanf("%d %d", &m, &n);
+
+    for(i=m; i<n + 1; i++)
+    {
+        wynik *= i;
+    }
+
+    printf("Wynik = %d\n\n", wynik);
+
+
+    return 0;
+}
